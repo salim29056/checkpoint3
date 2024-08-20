@@ -1,0 +1,95 @@
+.a{
+color: #008080;
+white-space: nowrap
+}
+
+.b{
+    text-align: end;
+    top: 0; /* Aligne en haut */
+    right: 0;
+    position: fixed; /* Fixe la position par rapport à la fenêtre du navigateur */
+color: rgb(0, 0, 0);
+}
+.c{
+    color:#008080;
+    text-align: center;
+}
+pre{
+color: rgb(0, 0, 0);
+margin-left: 140px;
+font-size: 15px;
+}
+.container {
+    display: flex; /* Active Flexbox */
+    justify-content: space-around; /* Espace uniforme autour des éléments */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    height: 100vh; /* Hauteur de la fenêtre du navigateur */
+    padding: 10px; /* Espacement autour du conteneur */
+    box-sizing: border-box; /* Inclut le padding dans les dimensions totales */
+}
+.box {
+    flex: 1; /* Les cases occupent un espace égal */
+    margin: 0 10px; /* Espacement horizontal entre les cases */
+    padding: 100px; /* Espacement interne */
+    background-color: beige; /* Couleur de fond */
+    border: 1px solid #000000; /* Bordure légère */
+    text-align: center; /* Centre le texte à l'intérieur des cases */
+    
+}
+.grid-container {
+    display: grid; /* Active CSS Grid */
+    grid-template-columns: repeat(2, 1fr); /* Crée deux colonnes de taille égale */
+    grid-template-rows: repeat(2, 1fr); /* Crée deux rangées de taille égale */
+    gap: 10px; /* Espace entre les cases */
+    height: 100vh; /* Hauteur de la fenêtre du navigateur */
+    padding: 10px; /* Espacement autour du conteneur */
+    box-sizing: border-box; /* Inclut le padding dans les dimensions totales */
+}
+.grid-item {
+    display: flex; /* Utilise Flexbox pour le contenu des cases */
+    align-items: center; /* Centre le contenu verticalement */
+    justify-content: center; /* Centre le contenu horizontalement */
+    background-color: beige; /* Couleur de fond */
+    border: 1px solid beige; /* Bordure légère */
+    text-align: center; /* Centre le texte à l'intérieur des cases */
+}
+.d{
+color: beige;
+text-align: center;
+font-weight: bold;
+font-size: 24px;
+padding-left:200px ;
+}
+.e{
+text-align: center;
+color: black;
+padding-left:200px ;
+
+}
+.grid-container9 {
+    display: grid; /* Active CSS Grid */
+    grid-template-columns: repeat(3, 1fr); /* Crée trois colonnes de taille égale */
+    grid-template-rows: repeat(3, 1fr); /* Crée trois rangées de taille égale */
+    gap: 10px; /* Espace entre les cases */
+    height: 100vh; /* Hauteur de la fenêtre du navigateur */
+    padding-left: 200px; /* Espacement autour du conteneur */
+    box-sizing: border-box; /* Inclut le padding dans les dimensions totales */
+}
+.grid-item9 {
+    display: flex; /* Utilise Flexbox pour le contenu des cases */
+    align-items: center; /* Centre l'image verticalement */
+    justify-content: center; /* Centre l'image horizontalement */
+    background-color: 	#00008B; /* Couleur de fond pour la visibilité */
+    border: 1px solid #fe90009b; /* Bordure légère */
+}
+.grid-item img {
+    max-width: 100%; /* L'image ne dépasse pas la largeur de la case */
+    max-height: 100%; /* L'image ne dépasse pas la hauteur de la case */
+    object-fit: cover; /* Assure que l'image couvre entièrement la case sans distorsion */
+}
+body{
+    margin: 0;
+      height: 100vh;
+      
+      background-color:antiquewhite;
+      background-size: 400% 400%;}
